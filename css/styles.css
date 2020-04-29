@@ -1,0 +1,200 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    background-color: #ffffff
+}
+
+h1{
+    font-weight: 1000;
+    font-size: 2rem;
+}
+
+section{
+    max-width: 600px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+p{
+    color: #736f6f;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+strong{
+    color: #2b1b29;
+}
+
+.header{
+    /* border: 2px solid red; */
+    max-width: 930px;
+    margin: 0 auto;
+    background-image: url('http://hostables.sccodes.org/porcelain-cat/images/header-background.jpg');
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover cover;
+}
+
+.logo{
+    width: 210px;
+    margin-top: 20px;
+}
+
+.nav ul{   
+    list-style-type: none;  
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+.nav li{
+    display: inline-block; 
+    padding: 10px; 
+}
+
+.nav a{
+    text-decoration: none;
+    color:#2a1c29;
+    padding: 5px;
+    /* background-color: white; */
+    display: block;
+    border-bottom:2px solid #fe853b
+}
+
+.nav a:hover {
+  background: #fe853b;
+}
+
+.active{
+    background-color: white;
+}
+
+.intro{ 
+    background-color: #efefef;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    max-width: 900px;
+}
+
+.about-domestic-cats{
+    margin: 50px 0 0 0;
+}
+
+.about-domestic-cats h2{
+    font-weight: 1000;
+}
+
+.about-domestic-cats h4{
+    color: #fe853b;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+}
+
+.about-domestic-cats p{
+    line-height: 2rem;
+    margin-bottom: 50px;
+}
+
+.further-reading h3{
+    font-weight: 700;
+}
+
+.further-reading img{
+    width: 300px;
+    float: right;
+    margin-left: 30px;
+    padding: 10px 0 20px 10px;
+}
+
+.further-reading p{
+    line-height: 2rem;  
+    content: "";
+    display: block; 
+    clear: left;
+}
+
+.call-out{
+    background-color: #fe853b;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 50px 0
+}
+
+.call-out h2{
+    font-weight: 1000;
+}
+
+.call-out p{
+    color: white;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 2rem;
+}
+
+.cat-play p{
+    line-height: 2rem;
+}
+
+.mythology p{
+    line-height: 2rem;
+    content: "";
+    display: block; 
+    clear: right;
+}
+
+.mythology img{
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    padding: 10px 20px 10px 0;
+}
+
+.interesting-facts{
+    margin: 50px 0;
+}
+
+.interesting-facts ol{
+    font-style: italic;
+    line-height: 2rem;
+    font-weight: 700;
+    border-left: 5px solid #fe853b;
+}
+
+.hunting-and-feeding img{
+    width: 200px;
+    float: right;
+    margin-left: 30px;
+    padding: 10px 0 30px 10px;
+}
+
+.hunting-and-feeding p{
+    line-height: 2rem;
+    content: "";
+    display: block; 
+    clear: left;
+}
+
+footer {
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #2b1b29;
+    max-width: 930px;
+    color: #856282;   
+}
+
+footer h3{
+    margin: 0;
+    padding: 0;
+}
+
+footer p{
+    margin: 0 0 20px 0;
+}
+
+footer a{
+    color:#ff862e;
+}
